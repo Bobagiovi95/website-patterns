@@ -2,7 +2,7 @@
 
 Benvenuti nella galleria degli esempi dei siti! Qui troverai una raccolta di vari tipi di siti web che ho creato, suddivisi in tre categorie principali: Siti a Singola Pagina, Siti Multi-Pagina e Siti 3D. Ogni esempio è progettato per mostrare diverse funzionalità e stili.
 
-![Copertina Esempi Siti]([cover-image-placeholder.jpg](https://images.unsplash.com/photo-1543013309-0d1f4edeb868?q=80&w=1991&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D))  <!-- Placeholder for cover image -->
+![Copertina Esempi Siti](https://images.unsplash.com/photo-1543013309-0d1f4edeb868?q=80&w=1991&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
 ## Siti a Singola Pagina
 - [Esempio Sito 1](link-a-sito-singola-pagina-1.html)
