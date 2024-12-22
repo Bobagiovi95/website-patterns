@@ -1,0 +1,36 @@
+button {
+  padding: 4rem;
+  background-image: url("./future.jpg");
+  background-size: cover;
+  border-radius: 100%;
+
+  box-shadow: 2px 0px 4px black, 0cqw 0px 5px black, 0cqw 0px 10px black,
+    0cqw 0px 15px black, 0cqw 0px 20px black;
+}
+
+button:hover {
+  box-shadow: none;
+}
+
+/* Contenitore del pulsante e dell'SVG */
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Altezza completa della finestra */
+}
+
+/* Pulsante centrato */
+.centered-button {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centro il testo verticalmente */
+  margin-bottom: 20px; /* Spazio tra il pulsante e il cerchio */
+}
+
+/* SVG centrato */
+.rune {
+  position: absolute;
+}

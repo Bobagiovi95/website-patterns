@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Arial", sans-serif;
   background-color: #f4f4f4;
@@ -11,7 +15,7 @@ body {
 }
 
 header {
-  background: linear-gradient(90deg, #6b6bff, #a4508b);
+  /* background: linear-gradient(90deg, #6b6bff, #a4508b); */
   padding: 20px 0;
   text-align: center;
 }
@@ -27,7 +31,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: white;
+  color: rgb(34, 34, 34);
   font-size: 18px;
   transition: color 0.3s;
 }
@@ -37,6 +41,8 @@ nav ul li a:hover {
 }
 
 section {
+  align-content: center;
+  height: 100svh;
   padding: 50px 20px;
   text-align: center;
   margin: 20px 0;
@@ -47,16 +53,18 @@ section {
 
 h2 {
   margin-bottom: 20px;
-  color: #6b6bff;
+  color: #333;
 }
 
 .hero {
-  background-image: url("path/to/your/image.jpg"); /* Sostituisci con il percorso dell'immagine */
+  height: 90svh;
+  background-image: url("https://images.unsplash.com/photo-1733076939837-eb7463329163?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
   background-position: center;
   color: white;
   padding: 100px 20px;
   text-align: center;
+  align-content: center;
 }
 
 .hero h1 {

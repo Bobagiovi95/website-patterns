@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <!-- Container -->
+    <div class="button-container">
+      <button class="centered-button"></button>
+
+      <svg width="300" height="300" viewBox="0 0 300 300" class="rune">
+        <!-- Definisci un cerchio -->
+        <defs>
+          <path
+            id="circlePath"
+            d="M 150, 130 m -75, 0 a 75,75 0 1,1 150,0 a 75,55 0 1,1 -150,0"
+          />
+        </defs>
+
+        <!-- Applica il testo al percorso circolare -->
+        <text fill="black" font-size="20" font-family="Arial">
+          <textPath href="#circlePath" startOffset="10%">
+            Testo arrotondato
+          </textPath>
+        </text>
+      </svg>
+      
+    </div>
+
+  </body>
+</html>
